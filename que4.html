@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management</title>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <h1>Library Management System</h1>
+
+    <form id="bookForm">
+        <input type="text" id="title" placeholder="Title" required />
+        <input type="text" id="author" placeholder="Author" required />
+        <input type="text" id="genre" placeholder="Genre" required />
+        <input type="number" id="year" placeholder="Published Year" required />
+        <label>
+            Available:
+            <input type="checkbox" id="available" />
+        </label>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <div id="bookList"></div>
+
+</body>
+
+</html>
